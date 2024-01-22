@@ -18,7 +18,7 @@ if(BMI <= 18.5){
     console.log("Overweight!");
     decrease = BMI - 24.9;
     console.log("Ban can giam :", decrease, "kg");
-} else if(BMI >= 30){
+} else {
     console.log("Obesity!");
     decrease = BMI - 24.9;
     console.log("Ban can giam :", decrease, "kg");
