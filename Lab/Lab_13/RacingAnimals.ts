@@ -1,6 +1,6 @@
 import Animal from "./Animal";
 
-export default class AnimalRacing {
+export default class RacingAnimals {
     static getWinner(animalList: Animal[]): Animal {
         let winner = animalList[0];
         animalList.forEach(animal => {
